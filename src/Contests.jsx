@@ -94,25 +94,30 @@ const Container = styled.div`
     margin: 0 auto;
     text-align: center;
     min-width: 300px;
-    /* padding: 0; */
     min-height: 100vh; /* Ensure the container occupies full viewport height */
   position: relative; /* Establish the container as a relative positioning context */
-  padding-bottom: 60px; /* Optional: Add padding to create space above the footer */
-    /* padding: 10px; */
-    /* font-size: 16px;
-    min-width: 100px;
-    width: 400px; */
-    /* footer{
-        background-color: #a54a4a62;
-    } */
+    overflow-x: hidden;
+    display: block;
+    top: 0px;
+    padding: 0% 0% 3% 0% ;
+
+    &:after{
+        background: url("/images/home-background.png") center center / cover
+        no-repeat fixed;
+        content: "";
+        position: absolute;
+        inset: 0px;
+        opacity: 1;
+        z-index: -1;
+    }
+
     
 `
 const Header = styled.div`
-    /* background-color: #5c89b0; */
     display: flex;
-    
     align-items: center;
-    background-color: #a54a4a62;
+    background-color: #090b13;
+    color: whitesmoke;
     box-shadow: rgba(94, 94, 99, 0.808) 0px 7px 29px 0px;
     
     img{
@@ -137,48 +142,74 @@ const Contest = styled.div`
     width: 90%;
     margin: 7% auto;
     text-align: center;
-
-    /* background-color: #a54a4a62; */
-
-    /* box-shadow: rgba(53, 53, 89, 0.2) 0px 7px 29px 0px; */
 `
 const Box = styled.div`
-background-color: #a54a4a62;
-    border: 1px solid #a54a4a62;
+    color: whitesmoke;
+    border: 1px solid #2B2D3B;;
     border-radius: 2px;
     margin-bottom: 8px;
     font-family: Shruti;
     font-size: 16px;
+
+    position: relative;
+    overflow-x: hidden;
+    display: block;
+    
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
+  
     p{
         margin: 0;
         padding: 3px 0;
     }
     a{
         text-decoration: none;
-        color: blue;
+        color: #FF6D00;
     }
     a:hover{
-        color: rgb(76, 76, 182);
+        opacity: 0.7;
+    }
+    &:after{
+        background: url("/images/home-background.png") center center / cover
+        no-repeat fixed;
+        content: "";
+        position: absolute;
+        inset: 0px;
+        opacity: 1;
+        z-index: -1;
     }
 
 `
 
 const Footer = styled.div`
     font-family: Shruti;
-    background-color: #a54a4a62;
-    /* margin: 0px auto; */
     font-size: 16px;
-    /* text-align: center; */
     padding-bottom:0;
-    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    display: block;
     strong{
         margin-top: 20px;
+    }
+
+    &:after{
+        background: url("/images/home-background.png") center center / cover
+        no-repeat fixed;
+        content: "";
+        position: absolute;
+        inset: 0px;
+        opacity: 1;
+        z-index: -1;
     }
     
 `
