@@ -51,8 +51,8 @@ function Contests() {
     <>
         <Container>
             <Header>
-                <img src="code.png" alt="CodeClock" />
-                <Text>CodeClock</Text>
+                <img src="code.png" alt="CodeClocker" />
+                <Text>CodeClocker</Text>
             </Header>
             <Time>{getDayName(currentDateTime)} - {currentDateTime.toLocaleTimeString()}</Time>
             <Contest>
