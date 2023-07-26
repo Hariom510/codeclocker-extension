@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# CodeClocker - Your Coding Contests Companion 🏆
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://github.com/Hariom510/codeclocker-extension/assets/85151795/998bb5f6-a01d-4dd0-806d-0e37b85b1fe8"       
+  alt="CodeClockerBanner">
+</div>
 
-## Available Scripts
+Welcome to CodeClocker, your ultimate coding contests companion! 🚀
 
-In the project directory, you can run:
+## Description
+CodeClocker is a powerful Chrome extension designed to revolutionize the way you participate in coding contests. With CodeClocker, you can effortlessly explore all the ongoing and upcoming coding battles on various platforms such as Codeforces, LeetCode, HackerRank, and more. The extension is built using ReactJS, styled components, and an API to ensure a seamless and user-friendly experience.
 
-### `npm start`
+## Features
+- **Real-Time Updates:** Stay updated with ongoing and upcoming coding contests in real-time, all in one place.
+- **One-Click Access:** Jump directly to the contest site with a single click and showcase your coding skills instantly.
+- **Sleek Interface:** Enjoy a sleek and user-friendly interface created with ReactJS and styled components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Use
+To use CodeClocker, follow these simple steps:
+1. Clone or download the repository from [GitHub Link](https://github.com/Hariom510/codeclocker-extension).
+2. Open the downloaded folder "codeclocker-extension" in your preferred code editor (e.g., VS Code).
+3. In the terminal, run `npm install` to install the necessary dependencies.
+4. After installation, run `npm run build` to build the extension.
+5. Open your Chrome browser and go to "chrome://extensions".
+6. Enable Developer Mode by toggling the switch in the top right corner.
+7. Click on "Load Unpacked" and select the build folder.
+8. Voilà! You've successfully added CodeClocker to your Chrome extensions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributions
+Contributions to CodeClocker are welcome! If you find any issues or have suggestions for improvement, feel free to create a pull request.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🎉
